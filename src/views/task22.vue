@@ -1,10 +1,13 @@
 <template>
-$END$
+  <div>
+    Task 2.2
+  </div>
 </template>
+
 
 <script>
 export default {
-name: "Task21"
+name: "task22"
 }
 </script>
 
