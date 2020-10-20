@@ -22,7 +22,19 @@
 
 <script>
 export default {
-name: "task21"
+  name: "task21",
+  data: function() {
+  return {
+        name: 'Masha',
+        age: '18',
+        myImage: 'https://clck.ru/Qyi6G'
+    };
+  },
+  methods: {
+    ageInFive() {
+      return this.age + 5;
+    }
+  }
 }
 
 </script>

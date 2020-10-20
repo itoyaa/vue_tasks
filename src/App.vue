@@ -1,11 +1,16 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/task21">Task 2.1</router-link> |
-    <router-link to="/task22">Task 2.2</router-link> |
+  <div id="app" class="app">
+    <div class="nav">
+      <ul>
+        <li><router-link to="/task21">Task 2.1</router-link></li>
+        <li><router-link to="/task22">Task 2.2</router-link></li>
+      </ul>
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
-  <router-view/>
+
 </template>
 
 <style>
